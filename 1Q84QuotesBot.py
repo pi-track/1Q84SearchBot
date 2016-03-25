@@ -61,6 +61,6 @@ while True:
             s.reply = ".@{0} {1}".format(s.user.screen_name, s.reply_text)
         #print('len reply = {0} and reply is: {1}'.format(len(s.reply), s.reply))
         api.update_status(s.reply)
-        print(s.reply)
+        #print(s.reply)
 
     time.sleep(10)
